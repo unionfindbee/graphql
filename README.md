@@ -1,6 +1,6 @@
 ## GraphQL Demo 
 
-This demonstration showcases a GraphQL server and gateway set up using FastAPI and Strawberry, running inside a Docker container. The demo also includes integration with the Mayhem API for testing purposes.
+This demonstration showcases a Mayhem For API scan against a GraphQL server and gateway set up using FastAPI and Strawberry, running inside a Docker container. 
 
 ### Run the demo
 
@@ -53,17 +53,7 @@ After setting up the environment and installing necessary software, you can buil
 
 ### Testing the GraphQL API with Mayhem
 
-The demo integrates with the Mayhem API for testing the GraphQL endpoint. When the demo is run, the Mayhem API will automatically execute tests against the GraphQL gateway using the OpenAPI specification.
-
-### Cleaning Up
-
-To remove the Docker image after testing, run:
-
-```
-make clean
-```
-
-This will delete the Docker image created during the build process.
+The demo integrates with the Mayhem API for testing GraphQL endpoints. When the demo is run, the Mayhem API will automatically execute tests against the GraphQL gateway using the OpenAPI specification.
 
 ---
 
